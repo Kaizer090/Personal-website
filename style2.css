@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 65px;  
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    font-size: 19px;
+    color: #ddd;
+}
+
+.about {
+    margin-top: 40px;  /* Reduced space to adjust for header */
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.about p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    margin-top: 20px;
+}
+
+.hobbies {
+    margin-bottom: 40px;
+}
+
+.hobbies h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+
+.hobby {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hobby-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.hobby p {
+    font-size: 18px;
+    color: #555;
+}
+
+footer {
+    background-color: black;  
+    color: white;  
+    text-align: center;  
+    padding: 20px 0; 
+    width: 100%;  
+    position: fixed;  
+    bottom: 0;  
+    left: 0;
+    z-index: 1000;
+}
